@@ -142,12 +142,12 @@ html{
     animation: zoomIn 1s linear 1s 1 both;
 }
 #page1 .lineLong{
-    -webkit-animation: zoomIn52 1s linear 0s 1 both,flash 1s linear 1s 1 both;
-    animation: zoomIn52 1s linear 0s 1 both,flash 1s linear 1s 1 both;
+    -webkit-animation: zoomIn52 .5s linear 0s 1 both,flash 1s linear 1s 1 both,flash 1.8s linear 1s 1 both;
+    animation: zoomIn52 .5s linear 0s 1 both,flash 1s linear 1s 1 both,flash 1.8s linear 1s 1 both;
 }
 #page1 .lineShort{
-    -webkit-animation: zoomIn52 1s linear .5s 1 both,flash 1s linear 1.5s 1 both;
-    animation: zoomIn52 1s linear .5s 1 both,flash 1s linear 1.5s 1 both;
+    -webkit-animation: zoomIn52 1s linear .5s 1 both,flash 1s linear 1.5s 1 both,flash 1s linear 2s 1 both;
+    animation: zoomIn52 1s linear .5s 1 both,flash 1s linear 1.5s 1 both,flash 1s linear 2s 1 both;
 }
 /*page2*/
 .swiper-slide .info{
@@ -510,20 +510,17 @@ html{
     -webkit-animation: bounceInLeft 1s linear 1s 1 both;
     animation: bounceInLeft 1s linear 1s 1 both;
 }
-#page5 .item:nth-child(1){
+#page5 .cont div:nth-of-type(2){
      -webkit-animation: zoomIn .5s linear 1.5s 1 both;
     animation: zoomIn .5s linear 1.5s 1 both;
-    background-color: red;
 }
-#page5 .item:nth-child(2){
+#page5 .cont div:nth-of-type(3){
      -webkit-animation: zoomIn .5s linear 1.8s 1 both;
-    animation: zoomIn .5s linear 1s 1.8 both;
-    background-color: green;
+    animation: zoomIn .5s linear 1.8s 1 both;
 }
-#page5 .item:nth-child(3){
+#page5 .cont div:nth-of-type(4){
      -webkit-animation: zoomIn .5s linear 2s 1 both;
     animation: zoomIn .5s linear 2s 1 both;
-    background-color: pink;
 }
 /*page6*/
 .page6{
