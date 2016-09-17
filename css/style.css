@@ -142,12 +142,12 @@ html{
     animation: zoomIn 1s linear 1s 1 both;
 }
 #page1 .lineLong{
-    -webkit-animation: zoomIn52 .5s linear 0s 1 both,flash 1s linear 1s 1 both,flash 1.8s linear 1s 1 both;
-    animation: zoomIn52 .5s linear 0s 1 both,flash 1s linear 1s 1 both,flash 1.8s linear 1s 1 both;
+    -webkit-animation: zoomIn52 .5s linear 0s 1 both,aflash 2s linear 1s 1 both;
+    animation: zoomIn52 .5s linear 0s 1 both,aflash 2s linear 1s 1 both;
 }
 #page1 .lineShort{
-    -webkit-animation: zoomIn52 1s linear .5s 1 both,flash 1s linear 1.5s 1 both,flash 1s linear 2s 1 both;
-    animation: zoomIn52 1s linear .5s 1 both,flash 1s linear 1.5s 1 both,flash 1s linear 2s 1 both;
+    -webkit-animation: zoomIn52 1s linear .5s 1 both,aflash 2s linear 1.5s 1 both;
+    animation: zoomIn52 1s linear .5s 1 both,aflash 2s linear 1.5s 1 both;
 }
 /*page2*/
 .swiper-slide .info{
@@ -368,13 +368,13 @@ html{
 .page4 dt span{
     display: block;
     width:.1rem;
-    height: 1.8rem;
+    height: 1.6rem;
     background-color:#000;
     margin:0 auto;
     opacity: 0;
 }
 .page4 dt span:first-child,.page4 dt span:last-child{
-    height: .9rem;
+    height: .8rem;
 }
 .page4 dt img{
     display: block;
@@ -397,10 +397,10 @@ html{
     margin-top:1rem;
 }
 .page4 dd p:nth-child(2){
-    margin-top:1.8rem;
+    margin-top: 1.4rem;
 }
 .page4 dd p:nth-child(3){
-    margin-top:1.7rem;
+    margin-top: 1.2rem;
 }
 #page4 .info .infoTxt{
     -webkit-animation:PBounceOutRight 2s linear .2s 1 both;
@@ -487,7 +487,7 @@ html{
     opacity: 0;
 }
 .page5 .item li{
-    font-size: .25rem;
+    font-size: .2rem;
     line-height: .3rem;
 }
 #page5 .bgimgs img{
@@ -559,7 +559,7 @@ html{
 }
 .page6 .advantage{
     position: absolute;
-    bottom: 3.2rem;
+    top: 6.2rem;
     left: 1rem;
     width:5.2rem;
     color:#ffd800;
@@ -700,17 +700,17 @@ html{
 }
 
 /*page页内容运动动画*/
-@-webkit-keyframes flash {
-    from, 50%, to {
+@-webkit-keyframes aflash {
+    from, 33%,66%, to {
         opacity: 1;
     }
 
-    25%, 75% {
+    16%, 50%,83% {
         opacity: 0;
     }
 }
 
-@keyframes flash {
+@keyframes aflash {
     from, 50%, to {
         opacity: 1;
     }
