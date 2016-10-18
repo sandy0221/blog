@@ -73,7 +73,7 @@ html{
     top: 2.2rem;
     right: .7rem;
     width: 5.8rem;
-    height: 2px;
+    height: 0;
     overflow: hidden;
     background-color: #ffd800;
     -webkit-transform: rotate(-52deg);
@@ -1307,6 +1307,7 @@ html{
         opacity: 1;
         -webkit-transform: rotate(-52deg);
         transform: rotate(-52deg);
+        height:2px;
     }
 }
 
