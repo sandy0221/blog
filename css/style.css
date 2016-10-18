@@ -210,13 +210,13 @@ html{
     height: auto;
 }
 .page2 .bgimgs img:nth-child(2){
-    bottom: 2.8rem;
+    top: 7rem;
     left: 1.3rem;
     width: 1.4rem;
     height: 1.46rem;
 }
 .page2 .bgimgs img:nth-child(3){
-    bottom: 2.4rem;
+    top: 7.11rem;
     left: 2.35rem;
     width: 1.6rem;
     height: 1.9rem;
@@ -229,7 +229,7 @@ html{
 }
 .page2 .bgimgs img:nth-child(5){
     width: 2.5rem;
-    bottom: .5rem;
+    top: 7.7rem;
     right: .7rem;
     border-radius: 50%;
     box-shadow: 1px 1px 5px #000;
